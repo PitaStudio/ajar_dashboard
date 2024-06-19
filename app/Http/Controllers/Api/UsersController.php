@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\User;
+use App\Models\BlackList;
 
 class UsersController {
 
@@ -99,5 +100,44 @@ class UsersController {
             return ["status" => false, "data" => null];
         }
 
+    }
+
+    function AddToBlackList(Request $request) {
+        try {
+            $user = new BlackList();
+
+            $user->user_id = $request->user_id;
+            $user->phone = $request->phone;
+            $user->save();
+            
+            return ["status" => true, "data" => $user];
+            
+        }catch(\Exception $e) {
+            return ["status" => false, "data" => null];
+        }
+
+    }
+
+    function removeFromBlackList(Request $request) {
+        try {
+            $user = BlackList::where('user_id', $request->user_id)->where('phone', $request->phone)->first();
+            $user->delete();
+            
+            return ["status" => true, "data" => $user];
+            
+        }catch(\Exception $e) {
+            return ["status" => false, "data" => null];
+        }
+
+    }
+
+    function blackList($id) {
+        $users = BlackList::where("user_id", $id)->get();
+
+        if (!is_null($users)) {
+            return ["status" => true, "data" => $users];
+        }else {
+            return ["status" => false, "data" => null];
+        }
     }
 }

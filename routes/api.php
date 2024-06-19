@@ -38,6 +38,9 @@ Route::controller(UsersController::class)->group(function(){
     Route::post('users/update','update');
     Route::post('users/delete','delete');
     Route::get('users/{id}','show');
+    Route::get('users/{id}/black_list', 'blackList');
+    Route::post('users/{id}/black_list', 'AddToBlackList');
+    Route::post('users/{id}/remove_black_list', 'removeFromBlackList');
 });
 
 Route::controller(AddsController::class)->group(function(){
