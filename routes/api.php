@@ -48,4 +48,6 @@ Route::controller(AddsController::class)->group(function(){
     Route::post('adds','createContact');
     Route::post('create_add','createNewAdd');
     Route::get('my_adds/{user_id}','myAdds');
+    Route::get('my_adds/{id}/delete','delete');
+    Route::post('my_adds/update','update');
 });

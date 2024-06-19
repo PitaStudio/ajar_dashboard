@@ -22,7 +22,7 @@ class AddsController {
 
     function myAdds($user_id) {
         try {
-            $adds = Add::with(["region", "city", "user", "category"])->where("user_id", $user_id)->get();
+            $adds = Add::with(["region", "city", "user", "category"])->where("user_id", $user_id)->where("is_deleted", 0)->get();
             return ["status" => true, "data" => $adds];
         }catch(\Exception $e) {
             return ["status" => false, "data" => null, "error" => $e];
@@ -58,6 +58,57 @@ class AddsController {
             $add->user_id = $request->user_id;
             $add->type = $request->type;
             $add->image = $carImage;
+            $add->title = $request->name;
+            $add->region_id = $request->region_id;
+            $add->city_id = $request->city_id;
+            $add->category_id = $request->category_id;
+            $add->car_type = $request->car_type;
+            $add->size = $request->size;
+            $add->model = $request->model;
+            $add->price = $request->price;
+            $add->address = $request->address;
+            $add->details = $request->details;
+            $add->save();
+            return ["status" => true, "data" => $add];
+        }catch (\Exception $e) {
+            return ["status" => false, "data" => null, "message" => $e];
+        }
+    }
+
+    function delete($id) {
+        try {
+            $add = Add::find($id);
+            
+            $add->is_deleted = 1;
+            $result = $add->save();
+
+            if ($result) {
+                return ["status" => true, "data" => $add];
+            }else {
+                return ["status" => false, "data" => null];
+            }
+        }catch(\Exception $e) {
+            return ["status" => false, "data" => null];
+        }
+    }
+
+    function update(Request $request) {
+        try {
+            $carImage = "";
+            $hasNewImage = false;
+
+            if ($request->file('image')) {
+                $file = $request->file('image');
+                @unlink(public_path('assets/images/'.$request->photo));
+                $fileName = date('YmdHi').$file->getClientOriginalName();
+                $file->move(public_path('assets/images'),$fileName);
+                $carImage = $fileName;
+                $hasNewImage = true;
+            }
+            $add = Add::find($request->id);
+            if($hasNewImage) {
+                $add->image = $carImage;
+            }
             $add->title = $request->name;
             $add->region_id = $request->region_id;
             $add->city_id = $request->city_id;
