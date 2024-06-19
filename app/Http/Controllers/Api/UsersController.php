@@ -66,6 +66,10 @@ class UsersController {
             $user = User::find($request->id);
 
             $user->name = $request->name;
+            $user->contact = $request->contact;
+            $user->register_number = $request->register_number;
+            $user->identity = $request->identity;
+            $user->email = $request->email;
             $result = $user->save();
 
             if ($result) {
@@ -76,5 +80,24 @@ class UsersController {
         }catch(\Exception $e) {
             return ["status" => false, "data" => null];
         }
+    }
+
+
+    function delete(Request $request) {
+        try {
+            $user = User::find($request->id);
+            $user->phone = "deleted.".$user->phone;
+            $user->is_deleted = 1;
+            $result = $user->save();
+
+            if ($result) {
+                return ["status" => true, "data" => $user];
+            }else {
+                return ["status" => false, "data" => null];
+            }
+        }catch(\Exception $e) {
+            return ["status" => false, "data" => null];
+        }
+
     }
 }

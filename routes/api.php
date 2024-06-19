@@ -36,6 +36,7 @@ Route::controller(UsersController::class)->group(function(){
     Route::post('users/login','login');
     Route::post('users/register','register');
     Route::post('users/update','update');
+    Route::post('users/delete','delete');
     Route::get('users/{id}','show');
 });
 
