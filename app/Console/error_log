@@ -1,0 +1,4 @@
+[02-Jul-2024 00:17:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Console\Kernel" not found in /home/ajarksa/public_html/ajar_dashboard/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Console/Kernel.php on line 8

@@ -1,0 +1,136 @@
+[26-Jun-2024 23:31:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/broadcasting.php on line 18
+[26-Jun-2024 23:48:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/ajarksa/public_html/ajar_dashboard/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/view.php on line 17
+[27-Jun-2024 00:04:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/logging.php on line 20
+[27-Jun-2024 00:21:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/database.php on line 18
+[27-Jun-2024 00:37:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/sanctum.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/sanctum.php on line 16
+[27-Jun-2024 00:53:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/session.php on line 21
+[27-Jun-2024 01:42:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/mail.php on line 16
+[27-Jun-2024 06:31:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/services.php on line 18
+[27-Jun-2024 15:58:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/filesystems.php on line 16
+[27-Jun-2024 17:46:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/app.php on line 16
+[27-Jun-2024 17:48:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/hashing.php on line 32
+[27-Jun-2024 17:51:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/cache.php on line 18
+[28-Jun-2024 23:24:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/broadcasting.php on line 18
+[28-Jun-2024 23:25:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/ajarksa/public_html/ajar_dashboard/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/view.php on line 17
+[29-Jun-2024 01:20:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/mail.php on line 16
+[29-Jun-2024 17:33:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/filesystems.php on line 16
+[29-Jun-2024 23:09:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/hashing.php on line 32
+[29-Jun-2024 23:18:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/cache.php on line 18
+[30-Jun-2024 00:41:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/app.php on line 16
+[01-Jul-2024 13:41:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/mail.php on line 16
+[01-Jul-2024 13:49:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/sanctum.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/sanctum.php on line 16
+[01-Jul-2024 14:33:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/app.php on line 16
+[01-Jul-2024 14:34:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/broadcasting.php on line 18
+[01-Jul-2024 14:34:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/cache.php on line 18
+[01-Jul-2024 14:34:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/database.php on line 18
+[01-Jul-2024 14:34:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/filesystems.php on line 16
+[01-Jul-2024 14:34:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/hashing.php on line 32
+[01-Jul-2024 14:34:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/logging.php on line 20
+[01-Jul-2024 14:34:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/mail.php on line 16
+[01-Jul-2024 14:34:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/queue.php on line 16
+[01-Jul-2024 14:34:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/sanctum.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/sanctum.php on line 16
+[01-Jul-2024 14:34:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/services.php on line 18
+[01-Jul-2024 14:34:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ajarksa/public_html/ajar_dashboard/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/session.php on line 21
+[01-Jul-2024 14:34:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/ajarksa/public_html/ajar_dashboard/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/config/view.php on line 17

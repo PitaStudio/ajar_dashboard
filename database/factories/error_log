@@ -1,0 +1,4 @@
+[02-Jul-2024 00:19:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/ajarksa/public_html/ajar_dashboard/database/factories/UserFactory.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/database/factories/UserFactory.php on line 8

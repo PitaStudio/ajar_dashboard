@@ -1,0 +1,36 @@
+[02-Jul-2024 13:21:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/AddRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/AddRequest.php on line 7
+[02-Jul-2024 13:22:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/BannerRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/BannerRequest.php on line 7
+[02-Jul-2024 13:22:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/CategoryRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/CategoryRequest.php on line 7
+[02-Jul-2024 13:22:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/CityRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/CityRequest.php on line 7
+[02-Jul-2024 13:22:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/InquiryRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/InquiryRequest.php on line 7
+[02-Jul-2024 13:22:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/LoginRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/LoginRequest.php on line 7
+[02-Jul-2024 13:22:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/OrderRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/OrderRequest.php on line 7
+[02-Jul-2024 13:22:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/RegionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/RegionRequest.php on line 7
+[02-Jul-2024 13:22:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/UsersRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Http/Requests/UsersRequest.php on line 7

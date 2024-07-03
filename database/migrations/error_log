@@ -1,0 +1,16 @@
+[02-Jul-2024 00:19:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/ajarksa/public_html/ajar_dashboard/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[02-Jul-2024 00:19:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/ajarksa/public_html/ajar_dashboard/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[02-Jul-2024 00:19:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/ajarksa/public_html/ajar_dashboard/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[02-Jul-2024 00:19:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/ajarksa/public_html/ajar_dashboard/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php on line 7

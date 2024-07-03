@@ -1,0 +1,16 @@
+[01-Jul-2024 14:35:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/ajarksa/public_html/ajar_dashboard/routes/api.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/routes/api.php on line 21
+[01-Jul-2024 14:35:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/ajarksa/public_html/ajar_dashboard/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/routes/channels.php on line 16
+[01-Jul-2024 14:35:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/ajarksa/public_html/ajar_dashboard/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/routes/console.php on line 17
+[01-Jul-2024 14:35:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/ajarksa/public_html/ajar_dashboard/routes/web.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/routes/web.php on line 32

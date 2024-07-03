@@ -1,0 +1,48 @@
+[02-Jul-2024 00:18:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/ajarksa/public_html/ajar_dashboard/app/Models/About.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Models/About.php on line 8
+[02-Jul-2024 00:18:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/ajarksa/public_html/ajar_dashboard/app/Models/Add.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Models/Add.php on line 13
+[02-Jul-2024 00:18:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/ajarksa/public_html/ajar_dashboard/app/Models/Admin.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Models/Admin.php on line 10
+[02-Jul-2024 00:18:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/ajarksa/public_html/ajar_dashboard/app/Models/Banner.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Models/Banner.php on line 8
+[02-Jul-2024 00:18:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/ajarksa/public_html/ajar_dashboard/app/Models/BlackList.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Models/BlackList.php on line 10
+[02-Jul-2024 00:18:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/ajarksa/public_html/ajar_dashboard/app/Models/Category.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Models/Category.php on line 10
+[02-Jul-2024 00:18:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/ajarksa/public_html/ajar_dashboard/app/Models/City.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Models/City.php on line 10
+[02-Jul-2024 00:18:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/ajarksa/public_html/ajar_dashboard/app/Models/Contact.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Models/Contact.php on line 10
+[02-Jul-2024 00:18:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/ajarksa/public_html/ajar_dashboard/app/Models/InquiriesList.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Models/InquiriesList.php on line 10
+[02-Jul-2024 00:18:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/ajarksa/public_html/ajar_dashboard/app/Models/Inquiry.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Models/Inquiry.php on line 10
+[02-Jul-2024 00:18:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/ajarksa/public_html/ajar_dashboard/app/Models/Region.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Models/Region.php on line 11
+[02-Jul-2024 00:18:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/ajarksa/public_html/ajar_dashboard/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ajarksa/public_html/ajar_dashboard/app/Models/User.php on line 10
